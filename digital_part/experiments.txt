@@ -1,0 +1,35 @@
+Experiment 1
+1. Design a 8:1 MUX (3 select inputs) using 2:1 MUXs (1 select input each).
+Write using both Behavioral and Structural styles. Demonstrate through test
+bench waveform, that each of the combination of select inputs passes the
+correct input line to the output.
+2. Implement a 4‐bit ripple carry adder using 4 1‐bit full adders. Demonstrate
+the output of the full adder using test bench waveform.
+
+Experiment 2
+Part 1
+Implement barrel shifter that performs logical shift left or rotate left operations based on the control input.
+Input : 8 bit binary, 3 bit select line, 1 bit control
+Output : 8 bit binary
+Part 2
+Implement barrel shifter that performs logical shift left or logical shift right based on the control input.
+Input : 8-bit binary, 3 bit select line, 1 bit control
+Output : 8 bit binary
+
+Experiment 3
+Part 1
+Implement 4 to 1 multiplexer using Conditional Operator.
+Note: Do not use direct logic equation (&, | operators), use only conditional operator.
+Part 2
+Implement 4-bit full adder
+i) Using Data flow operators (concatenation operator).
+ii) With carry lookahead. (to reduce the propagation time in ripple carry adder)
+Inputs: a[3:0], b[3:0], cin Outputs: sum[3:0], cout.
+Note: Show the output for at least two different sets of inputs and compare the results with that of 4-bit ripple carry adder.
+
+Experiment 4
+Design a circuit that takes 8 bit binary input and gives output “1” if the aggregate binary input is divisible by 3.
+
+Experiment 5
+1. Design a Clock with Time Period=40ns and a duty cycle of 25% by using the always and initial Statements. The Value of clock at time = 0 ,should be initialized to 0.
+2. Design a 1-to-4 DeMUX(from 1-to-2 DeMUX) using switch level Verilog description.
